@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BAXUS Price Check</title>
+    <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="container">
+        <h2>BAXUS Price Check</h2>
+        <div id="loading">Checking prices...</div>
+        <div id="results" style="display: none;">
+            <h3 id="product-name"></h3>
+            <p id="product-price"></p>
+            <p id="comparison-message"></p>
+            <a id="baxus-link" href="#" target="_blank" style="display: none;">View on BAXUS</a>
+        </div>
+        <div id="error" style="display: none; color: red;"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
